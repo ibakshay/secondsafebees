@@ -36,13 +36,6 @@ p {
     background-size: cover;
   }
 
-  /* section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  } */
-
-
-  
   .lnr {
     display: inline-block;
     fill: currentColor;
@@ -50,11 +43,6 @@ p {
     height: 1em;
     vertical-align: -0.05em;
     stroke-width: 1;
-  }
-  
-  .services-icon {
-    margin-bottom: 20px;
-    font-size: 30px;
   }
 
   .bgc2, .vLine, .hLine {
@@ -78,6 +66,7 @@ p {
 .lead {
     font-size: 2vw;
     color: white;
+    font-weight: bold;
 }
 
 /* Backgroung images */
@@ -106,7 +95,7 @@ p {
   /* Unique selling points */
 
 #usp {
-   padding: 3% 15%;
+   padding: 3% 15% 0% 15%;
    background-color: #fff;
    position: relative;
    z-index: 1;
@@ -126,12 +115,64 @@ margin-bottom: 1rem;
   
 }
 
+/* products  */
+
+#products {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#products h1{
+  /* color: #777; */
+  /* color: #555555; */
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+#products h3{
+  /* color: #777; */
+  /* color: #333333; */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#products p {
+  font-weight: 500;
+  font-size: 20px;
+  /* color: #555555; */
+}
+
+#products .card {
+  min-height: 330px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px  #3eba84;
+  transition: all 0.3s ease-in ;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+
+}
+
+#products .card:hover {
+  background: #3eba84;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px ;
+}
+
+#products .card:hover h3, #products .card:hover p  {
+  color: #fff;
+
+}
+
 /* testimonials */
 
 #testimonials {
+  margin-top: 3%;
   text-align: center;
   background-color:  #3eba84;
-  /* color: #fff; */
+  color: #fff;
 }
 
 .testimonial-img {
@@ -139,6 +180,8 @@ margin-bottom: 1rem;
   border-radius: 100%;
   margin: 20px;
 }
+
+
 
 /* Team */
 
@@ -157,7 +200,7 @@ margin-bottom: 1rem;
 }
 
 #team img {
-  margin-top: -50px;
+  /* margin-top: -50px; */
 }
 
 #team i {
@@ -167,6 +210,7 @@ margin-bottom: 1rem;
 
 #team p {
   font-weight: 500;
+  font-size: 20px;
   /* color: #555555; */
 }
 
@@ -193,30 +237,47 @@ margin-bottom: 1rem;
 
 }
 
+
 @media (min-width: 250px) {
     .background-image1 { height: 200px; }
     .background-image2 { height: 200px; }
     .background-image3 { height: 200px; }
+    #products .card-img-top {
+      width: 100%;
+      height: 70vw;
+      object-fit: cover;
+    }
 }
 @media (min-width: 480px) {
     .background-image1 { height: 200px; }
     .background-image2 { height: 200px; }
     .background-image3 { height: 200px; }
-}
-@media (min-width: 480px) {
-    .background-image1 { height: 200px; }
-    .background-image2 { height: 200px; }
-    .background-image3 { height: 200px; }
+    #products .card-img-top {
+      width: 100%;
+      height: 50vw;
+      object-fit: cover;
+    }
 }
   
 @media (min-width: 768px) {
       .background-image1 { height: 550px; }
       .background-image2 { height: 550px; }
       .background-image3 { height: 550px; }
+      #products .card-img-top {
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+      }
 }
-  
+
+
 @media (min-width: 992px) {
       .background-image1  { height: 700px; }
       .background-image2  { height: 700px; }
       .background-image3  { height: 700px; }
+      #products .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+      }
 }
