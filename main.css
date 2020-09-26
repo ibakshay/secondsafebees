@@ -37,3 +37,62 @@
       font-size: 60px;
       margin-left: 2rem;
   }
+
+  .display-5 {
+    font-size: 7vw;
+    color: white;
+}
+
+.lead {
+    font-size: 2vw;
+    color: white;
+}
+
+  .background-image1  {
+    background: url(images/honey1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 225px; width: 100%;
+  }
+
+  .background-image2  {
+    background: url(images/cofee1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 225px; width: 100%;
+  }
+
+  .background-image3  {
+    background: url(images/jaggery1.png);
+    background-position: center;
+    background-size: cover;
+    height: 225px; width: 100%;
+  }
+
+  @media (min-width: 250px) {
+    .background-image1 { height: 200px; }
+    .background-image2 { height: 200px; }
+    .background-image3 { height: 200px; }
+}
+@media (min-width: 480px) {
+    .background-image1 { height: 200px; }
+    .background-image2 { height: 200px; }
+    .background-image3 { height: 200px; }
+}
+@media (min-width: 480px) {
+    .background-image1 { height: 200px; }
+    .background-image2 { height: 200px; }
+    .background-image3 { height: 200px; }
+}
+  
+@media (min-width: 768px) {
+      .background-image1 { height: 550px; }
+      .background-image2 { height: 550px; }
+      .background-image3 { height: 550px; }
+}
+  
+@media (min-width: 992px) {
+      .background-image1  { height: 700px; }
+      .background-image2  { height: 700px; }
+      .background-image3  { height: 700px; }
+}
