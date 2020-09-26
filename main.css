@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding:0;
+}
 body {
   font-family: 'Montserrat';
 }
@@ -134,6 +138,59 @@ margin-bottom: 1rem;
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+}
+
+/* Team */
+
+#team h1{
+  /* color: #777; */
+  /* color: #555555; */
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#team h3{
+  /* color: #777; */
+  /* color: #333333; */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#team img {
+  margin-top: -50px;
+}
+
+#team i {
+  font-size: 26px;
+  color: #555555;
+}
+
+#team p {
+  font-weight: 500;
+  /* color: #555555; */
+}
+
+#team .card {
+  border-radius: 0;
+  box-shadow: 5px 5px 15px  #3eba84;
+  transition: all 0.3s ease-in ;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+
+}
+
+#team .card:hover {
+  background: #3eba84;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px ;
+}
+
+
+#team .card:hover h3, #team .card:hover i,  #team .card:hover p  {
+  color: #fff;
+
 }
 
 @media (min-width: 250px) {
