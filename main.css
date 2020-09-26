@@ -1,3 +1,27 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -7,10 +31,13 @@
     -o-background-size: cover;
     background-size: cover;
   }
-  section {
+
+  /* section {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
+  } */
+
+
   
   .lnr {
     display: inline-block;
@@ -25,7 +52,8 @@
     margin-bottom: 20px;
     font-size: 30px;
   }
-  bgc2, .vLine, .hLine {
+
+  .bgc2, .vLine, .hLine {
       background-color: #0F52BA;
   }
   
@@ -48,6 +76,8 @@
     color: white;
 }
 
+/* Backgroung images */
+
   .background-image1  {
     background: url(images/honey1.jpg);
     background-position: center;
@@ -69,7 +99,30 @@
     height: 225px; width: 100%;
   }
 
-  @media (min-width: 250px) {
+  /* Unique selling points */
+
+#usp {
+   padding: 3% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+}
+
+.usp-card {
+text-align: center;
+padding: 4%;
+}
+
+.icon {
+color:  #3eba84;
+margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #22886f;
+  
+}
+
+@media (min-width: 250px) {
     .background-image1 { height: 200px; }
     .background-image2 { height: 200px; }
     .background-image3 { height: 200px; }
